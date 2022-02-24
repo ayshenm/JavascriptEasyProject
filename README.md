@@ -1,0 +1,2 @@
+# JavascriptEasyProject
+ javascript
