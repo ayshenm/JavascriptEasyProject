@@ -8,7 +8,21 @@
     <link rel="stylesheet" href="/Cronometr project/css/style.css">
 </head>
 <body>
-    <h1>Asha</h1>
+    <div class="box">
+        <h1><span id="minute">00</span>:<span id="seconds">00</span></h1>
+    <form>
+        <label>
+            Minute
+            <input id="selected-minute" type="number" min="0" max="59" value="00"/>
+        </label>
+        <label>
+            Second
+            <input id="selected-second" type="number" min="0" max="59" value="00"/>
+        </label>
+    </form>
+    <button id="start">Basla</button>
+    <button id="end">Sifirla</button>
+    </div>
  
     
 <script src="/Cronometr project/js/main.js"></script>    
