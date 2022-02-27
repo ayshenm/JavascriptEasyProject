@@ -7,7 +7,10 @@
 body{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    background-image:url(../img/105-1056183_matrix-code-png-matrix-png.png),linear-gradient(90deg, #efd5ff 0%, #515ada 100%);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
 }
 .box{
@@ -18,7 +21,9 @@ body{
     flex-direction: column;
     margin: 6rem auto;
     justify-content: space-around;
-    text-align: center;  
+    text-align: center; 
+    border-radius:5% ; 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 h1{
     font-size: 4rem;
@@ -49,7 +54,7 @@ form label{
     width: 50%;
     padding: 0.5rem;
     border: none;
-    background: #dd1313;
+    background: #fa5656;
     border-radius: 10px;
     color: #fff; 
     display: flex; 
@@ -57,7 +62,14 @@ form label{
     align-items: center;
     font-size: 1.3rem;
     cursor: pointer;
+    transition: .5s ease all;
+}
+#start:hover{
+    background: #fd0505;
 }
 #end{
     background: #61cf06;
+}
+#end:hover{
+    background: #063802;
 }
